@@ -66,20 +66,32 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////
 /////*******************************************************************************/
-const loardify = ({spouse:{ firstname }}) => {
-    console.log(` ${firstname} of Canterbury`)
-};
+// const loardify = ({spouse:{ firstname }}) => {
+//     console.log(` ${firstname} of Canterbury`)
+// };
 
-const regularPerson = {
+// const regularPerson = {
 
-    firstname:"Bill",
-    lastname :"wilson",
+//     firstname:"Bill",
+//     lastname :"wilson",
 
-    spouse: {
+//     spouse: {
 
-        firstname:"phil",
-        lastname : "wilson"
+//         firstname:"phil",
+//         lastname : "wilson"
 
-    }
-};
-loardify(regularPerson)
+//     }
+// };
+// loardify(regularPerson)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+/////**************************************************************************************/
+
+
+const[firstanimal] = ["Hourse","Mouse","cat"];
+console.log(firstanimal)
+
+const[, , thirdanimal]=["Hourse","Mouse","cat"];
+console.log(thirdanimal)
+
