@@ -13,7 +13,7 @@ let player = {
 
     name:"Per",
     chips: 145
-    say :
+
 }
 
 
@@ -71,10 +71,6 @@ function renderGame() {
     }
     messageEl.textContent = message
 }
-
-
-
-
 
 function newCard() {
     if (isAlive === true && hasBlackJack === false) {
