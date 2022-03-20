@@ -70,8 +70,24 @@
 //last two functions are higher order functions
 // same function can be returned as 
 
-const createScream = logger => message => {
-    logger(message.toUpperCase());
-}
+// const createScream = logger => message => {
+//     logger(message.toUpperCase());
+
+// }
+
+////////////////////////////////////////////////////////////////////////////////
+
+// let list = [{title:"Red Red"},{title:"Lawn"},{title:"Patty pink"}];
+
+// // const addColor = function(title,colors){
+// //     colors.push({title:title});
+// //     return colors;
+// // }
+
+// // console.log(addColor("Green",list))
+
+// const addColor = (title,list) => [...list,{title}];
+
+// console.log(addColor("Red",list))
 
 
